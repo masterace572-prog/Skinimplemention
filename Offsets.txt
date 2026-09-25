@@ -1,0 +1,28 @@
+
+#define GNames_Offset 0x89750B0
+#define GUObject_Offset 0xEB04D00
+#define GNativeApp_Offset 0xE8338A8
+#define ActorArray_Offset 0xA71EA80
+#define Process_Event_Offset 0x8be9d08
+#define MessageBoxExt_Offset 0x87A095C
+#define PostRender_Offset 0xA62830C
+#define ShootBulletInner_Offset 0x6DAB6CC
+#define KillMessage_Offset: 0x6529B60
+#define EglSwapBuffers Offset: 0xCC8F5E0
+#define AlnputQueue_GetEvent: 0xCC8E450
+#define AlnputEvent_GetType: 0xCC8E110
+#define GetBonePos 0x64FA4A0
+#define GetBoneName 0xA4E3F94
+#define K2_DrawLine 0xAC24160
+#define K2_DrawText 0xAC243F0
+#define K2_DrawTexture 0xAC241E4
+#define ReceiveDrawHUD_offset 0xAD5866C
+
+#define luaL_loadbufferx_Ptr 0xB51186C
+#define lua_pcall_Ptr 0xB4ED430
+#define sub_BA003F8_Ptr 0xC222534
+#define lua_tostring_Ptr 0xB4EB850
+
+NetAvatarSyncData NetAvatarData;//[Offset: 0x440, Size: 0x20]
+StaticMeshComponent* PickupMesh;//[Offset: 0x718, Size: 0x8]
+
